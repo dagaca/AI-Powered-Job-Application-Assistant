@@ -124,6 +124,7 @@ FONT_PATH=fonts/NotoSans-Regular.ttf
 
 # Universal Sentence Encoder URL
 UNIVERSAL_SENTENCE_ENCODER_URL=https://tfhub.dev/google/universal-sentence-encoder/4
+```
 
 ---
 
