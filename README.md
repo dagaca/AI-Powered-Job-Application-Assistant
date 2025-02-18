@@ -31,6 +31,7 @@ automation solution.
 ## Directory Structure
 
 /AI-Powered-Job-Application-Assistant
+
 ├── app
 
 │   ├── __init__.py                # Initializes Flask app and loads configurations
