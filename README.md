@@ -33,7 +33,7 @@ automation solution.
 /AI-Powered-Job-Application-Assistant 
 
 ├── app 
-
+│
 │ ├── init.py # Initializes Flask app and loads configurations 
 
 │ ├── routes.py # Defines all API endpoints 
