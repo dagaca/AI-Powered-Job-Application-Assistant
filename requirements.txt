@@ -1,0 +1,13 @@
+Flask
+Flasgger
+Flask-Limiter
+openai
+python-dotenv
+fpdf2
+python-docx
+tensorflow
+tensorflow-hub
+scikit-learn
+nltk
+numpy
+pdfplumber
