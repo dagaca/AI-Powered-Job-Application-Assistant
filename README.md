@@ -129,9 +129,70 @@ UNIVERSAL_SENTENCE_ENCODER_URL=https://tfhub.dev/google/universal-sentence-encod
 
 ## Installation
 
-Clone the repository:
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/AI-Powered-Job-Application-Assistant.git
-cd AI-Powered-Job-Application-Assistant
+   git clone https://github.com/dagaca/AI-Powered-Job-Application-Assistant.git
+   cd AI-Powered-Job-Application-Assistant
+```
 
+2. Create and activate a virtual environment:
+
+```bash
+   python -m venv venv
+   source venv/bin/activate       # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies:
+
+```bash
+   pip install -r requirements.txt
+```
+
+4. Set up the .env file as described in the README.
+
+---
+
+## Usage
+
+1. Run the application:
+
+```bash
+   python run.py
+```
+
+2. API Endpoints:
+
+   - Health Check: GET /health
+   - Generate Cover Letter: POST /generate_cover_letter
+   - Generate Cover Letter with CV: POST /generate_cover_letter_with_cv
+   - Evaluate CV Match: POST /evaluate_cv_match
+   - Generate Interview Questions: POST /generate_interview_questions
+
+   Refer to the API documentation (via Flasgger/Swagger) for detailed endpoint usage.
+
+---
+
+## Logging & Rate Limiting
+
+- Logging:
+  Log files are stored in the directory specified by LOG_DIR (default is logs).
+  Logging is configured using config/log_config.py.
+
+- Rate Limiting:
+  API requests are rate-limited as per the value specified in the .env file 
+  (RATE_LIMIT). The rate limiter is set up using Flask-Limiter in 
+  app/utils/rate/rate_limiter.py.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request if you
+have any improvements or suggestions.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
