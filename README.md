@@ -35,32 +35,59 @@ automation solution.
 ├── app 
 
 │ ├── init.py # Initializes Flask app and loads configurations 
+
 │ ├── routes.py # Defines all API endpoints 
+
 │ └── utils 
+
 │ ├── authentication # Authentication utilities 
+
 │ │ └── auth.py 
+
 │ ├── document # Document processing utilities 
+
 │ │ ├── cover_letter_generator.py 
+
 │ │ └── document_extraction.py 
+
 │ ├── evaluation # CV matching and interview prep utilities 
+
 │ │ ├── cv_matcher.py 
+
 │ │ └── interview_preparation.py 
+
 │ ├── file # File management and saving utilities 
+
 │ │ ├── file_management.py 
+
 │ │ └── file_saver.py 
+
 │ └── rate # Rate limiting utilities 
+
 │ └── rate_limiter.py 
+
 ├── config 
+
 │ ├── config.py # Application-wide configuration settings 
+
 │ └── log_config.py # Logging configuration 
+
 ├── language 
+
 │ └── supported_languages.py # Supported languages and helper functions 
+
 ├── fonts # Contains font files (e.g., NotoSans-Regular.ttf) 
+
 ├── logs # Log files are stored here 
+
 ├── output # Generated output files are stored here 
+
 ├── temp # Temporary files are stored here 
+
 ├── .env # Environment variables 
+
 ├── requirements.txt # Python dependencies 
+
 └── run.py # Entry point for the Flask application
 
 
