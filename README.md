@@ -45,16 +45,15 @@ automation solution.
 │       │   ├── cv_matcher.py
 │       │   └── interview_preparation.py
 │       ├── file                   # File management and saving utilities
-│       │   ├── file_management.py
 │       │   └── file_saver.py
 │       └── rate                   # Rate limiting utilities
 │           └── rate_limiter.py
 ├── config
-│   ├── config.py                  # Application-wide configuration settings
 │   └── log_config.py              # Logging configuration
-├── language
-│   └── supported_languages.py     # Supported languages and helper functions
+├── language                       # Supported languages and helper functions
+│   └── supported_languages.py     
 ├── fonts                          # Contains font files (e.g., NotoSans-Regular.ttf)
+│   └── NotoSans-Regular.ttf       
 ├── logs                           # Log files are stored here
 ├── output                         # Generated output files are stored here
 ├── temp                           # Temporary files are stored here
